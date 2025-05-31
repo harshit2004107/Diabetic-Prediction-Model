@@ -1,0 +1,27 @@
+# Ignore node_modules folder (for Node.js projects)
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore build output folders (e.g., for React, Vue, etc.)
+dist/
+build/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore any other files you don't need to track
+*.bak
+*.swp
+
+# Ignore all files and folders except JavaScript, JSX, TSX, HTML, py and CSS files
+*
+!*.js
+!*.jsx
+!*.ts
+!*.tsx
+!*.html
+!*.css
+!*.ipynb
